@@ -1,4 +1,4 @@
-baseurl = "https://anaderi.github.io/"
+baseurl = "http://anaderi.github.io/"
 languageCode = "en-us"
 title = "Off-by-mind"
 canonifyURLs = true
