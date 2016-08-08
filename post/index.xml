@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Off-by-mind</title>
-    <link>http://anaderi.github.io/post/</link>
+    <link>https://anaderi.github.io/post/</link>
     <description>Recent content in Posts on Off-by-mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Aug 2016 17:05:38 +0300</lastBuildDate>
-    <atom:link href="http://anaderi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anaderi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>off-by-mind</title>
-      <link>http://anaderi.github.io/2016/08/04/welcome/</link>
+      <link>https://anaderi.github.io/2016/08/04/welcome/</link>
       <pubDate>Thu, 04 Aug 2016 17:05:38 +0300</pubDate>
       
-      <guid>http://anaderi.github.io/2016/08/04/welcome/</guid>
+      <guid>https://anaderi.github.io/2016/08/04/welcome/</guid>
       <description>&lt;p&gt;&lt;del&gt;Dear diary, &amp;hellip;&lt;/del&gt;&lt;/p&gt;
 
 &lt;p&gt;There is a &lt;a href=&#34;http://martinfowler.com/bliki/TwoHardThings.html&#34;&gt;popular saying&lt;/a&gt; that in Computer Science there are only 2 hard things: naming, cache invalidation &amp;hellip; and &lt;em&gt;off-by-one&lt;/em&gt;.&lt;/p&gt;

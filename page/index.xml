@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Off-by-mind</title>
-    <link>http://anaderi.github.io/page/</link>
+    <link>https://anaderi.github.io/page/</link>
     <description>Recent content in Pages on Off-by-mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Aug 2016 17:06:05 +0300</lastBuildDate>
-    <atom:link href="http://anaderi.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anaderi.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about author &amp; blog</title>
-      <link>http://anaderi.github.io/page/about/</link>
+      <link>https://anaderi.github.io/page/about/</link>
       <pubDate>Mon, 08 Aug 2016 17:06:05 +0300</pubDate>
       
-      <guid>http://anaderi.github.io/page/about/</guid>
+      <guid>https://anaderi.github.io/page/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m head of &lt;a href=&#34;https://yandexdataschool.com&#34;&gt;Yandex School of Data Analysis&lt;/a&gt; research group and &lt;a href=&#34;https://cs.hse.ru/lambda&#34;&gt;Laboratory of Methods of Big Data Analysis&lt;/a&gt; at &lt;a href=&#34;https://hse.ru&#34;&gt;Higher School of Economics&lt;/a&gt;. Those groups are focused on solving data-intensive tasks from various areas of natural sciences using machine learning techniques. For example members of my team are taking part in &lt;a href=&#34;https://lhcb.web.cern.ch/lhcb/&#34;&gt;LHCb&lt;/a&gt; experiment at &lt;a href=&#34;https://home.cern&#34;&gt;CERN&lt;/a&gt;, &lt;a href=&#34;https://crayfis.io&#34;&gt;CRAYFIS collaboration&lt;/a&gt; and others.&lt;/p&gt;
 
 &lt;p&gt;This blog &lt;em&gt;could&lt;/em&gt; embrace various stuff from biologically engineered pet-food recipes designed by deep learning to music composition history, but mostly it is going focus on such things as&lt;/p&gt;
