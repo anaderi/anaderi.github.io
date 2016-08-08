@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>off-by-mind &middot; </title>
+        <meta name="description" content="a mandatory blog part">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.16" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://anaderi.github.iocss/normalize.css">
+        <link rel="stylesheet" href="https://anaderi.github.iocss/highlight.css">
+        <link rel="stylesheet" href="https://anaderi.github.iocss/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="Off-by-mind" href="https://anaderi.github.io">Off-by-mind</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://anaderi.github.ioindex.xml"><i class="fa fa-rss"></i></a>
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/anaderiRu">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/anaderi">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" title="LinkedIn" href="https://linkedin.com/in/andreyustyuzhanin/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a title="About" href="https://anaderi.github.io/page/about/">About</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="YSDA github" href="https://github.com/yandexdataschool">YSDA github</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="LAMBDA" href="https://cs.hse.ru/lambda">LAMBDA</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Contacts" href="https://anaderi.github.io/page/contact/">Contacts</a>
+    </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">off-by-mind</h1>
+    
+        <p class="post-description" itemprop="description">a mandatory blog part</p>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2016-08-04" itemprop="datePublished">Thu, Aug 4, 2016</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="http://schema.org/Person">
+            <span itemprop="name">
+                <a href="" itemprop="url" rel="author"></a>
+            </span>
+        </span>
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p><del>Dear diary, &hellip;</del></p>
+
+<p>There is a <a href="http://martinfowler.com/bliki/TwoHardThings.html">popular saying</a> that in Computer Science there are only 2 hard things: naming, cache invalidation &hellip; and <em>off-by-one</em>.</p>
+
+<p>Those <em>off-by-one</em> relate to an error of accessing array elements in logically incorrect order. You can have many errors of that kind even in a short piece of code:</p>
+
+<pre><code class="language-python">a = [-2, -1, 0, -1, -2]
+for i in range(1, 5): # error_1 - omitting 1st element
+    if a[i] &lt; 0: a.remove(a[i]) # error_2, altering list inside iterator
+</code></pre>
+
+<p>running it would result in exception:</p>
+
+<pre><code class="language-text">IndexError: list index out of range
+</code></pre>
+
+<p>Actually the code above is quite nasty, but why do I bother?</p>
+
+<p>Just like arrays store numbers, human mind store &amp; process <a href="https://en.wikipedia.org/wiki/Meme">memes</a>. So occasional writing to unprepared mind might look completely similar to off-by-one error. The difference is that there is no entity to check boundary condition and subjectively it is treated as learning something new or addicting to something unexpected. Also it is not treated as an <em>error</em> at all, and instead of exception we get involved in discussions, rants or just writing blog posts. So as more memes continue hitting my mind I&rsquo;d respond to some of them with a blog post that without much futher explanation could be called <em>off-by-mind</em> posts and so is called the blog.</p>
+
+<p><strong>PS</strong> also the date seems to be rather good excuse for the start <code>16 - 08 - 04</code></p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+
+    <div class="share">
+        <a class="icon-twitter" href="http://twitter.com/share?text=off-by-mind&url=https%3a%2f%2fanaderi.github.io%2f2016%2f08%2f04%2fwelcome%2f"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fa fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fanaderi.github.io%2f2016%2f08%2f04%2fwelcome%2f"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fa fa-facebook"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+
+        <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fanaderi.github.io%2f2016%2f08%2f04%2fwelcome%2f"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+           <i class="fa fa-google-plus"></i>
+            <span class="hidden">Google+</span>
+        </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'anaderi';
+    var disqus_identifier = 'https:\/\/anaderi.github.io\/2016\/08\/04\/welcome\/';
+    var disqus_title = 'off-by-mind';
+    var disqus_url = 'https:\/\/anaderi.github.io\/2016\/08\/04\/welcome\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="Off-by-mind" href="https://anaderi.github.io">Off-by-mind</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2016 Andrey Ustyuzhanin / Powered by <a href="http://gohugo.io/">Hugo</a> &amp; <span><a href="https://github.com/jbub/ghostwriter">Ghostwriter theme</a></span>
+                </p>
+                
+            </div>
+        </footer>
+
+        <script src="https://anaderi.github.iojs/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+        <script src="https://anaderi.github.iojs/jquery.fitvids.js"></script>
+        <script src="https://anaderi.github.iojs/scripts.js"></script>
+    </body>
+</html>
+

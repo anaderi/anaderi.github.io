@@ -14,6 +14,12 @@ help:
 server:
 	hugo server --theme=$(THEME) --buildDrafts --watch
 
+pull_theme:
+	git subtree pull --prefix=themes/ghostwriter git@github.com:anaderi/ghostwriter.git master
+
+pull_public:
+	git subtree pull --prefix=public git@github.com:anaderi/anaderi.github.io.git master
+
 _gen:
 	hugo --theme=$(THEME)
 
