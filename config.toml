@@ -1,0 +1,48 @@
+baseurl = "https://anaderi.github.io"
+languageCode = "en-us"
+title = "Off-by-mind"
+canonifyURLs = true
+enableEmoji = true
+DisqusShortname = "anaderi"
+# copyright = "Who am I"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:year/:month/:day/:filename/"
+
+[params]
+  description = "Andrey Ustyuzhanin blog"
+  intro = true
+  # logo = "/images/logo.png"
+  # headline = "my dumb headline1"
+  github = "https://github.com/anaderi"
+  linkedin = "https://linkedin.com/in/andreyustyuzhanin/"
+  twitter = "https://twitter.com/anaderiRu"
+  AnalyticsID = "Your Google Analytics tracking code"  
+
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/"
+#  weight = 1
+
+[[menu.main]]
+  name = "YSDA github"
+  url = "https://github.com/yandexdataschool"
+  weight = 5
+
+[[menu.main]]
+  name = "Contacts"
+  url = "/page/contact/"
+  weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/page/about/"
+  weight = 4
+
+[[menu.main]]
+  name = "LAMBDA"
+  url = "https://cs.hse.ru/lambda"
+  weight = 6
