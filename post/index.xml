@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Off-by-mind</title>
+    <title>Posts on Off-by-mind blog</title>
     <link>https://anaderi.github.io/post/</link>
-    <description>Recent content in Posts on Off-by-mind</description>
+    <description>Recent content in Posts on Off-by-mind blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Aug 2016 17:05:38 +0300</lastBuildDate>
@@ -33,7 +33,7 @@ for i in range(1, 5): # error_1 - omitting 1st element
 
 &lt;p&gt;Actually the code above is quite nasty, but why do I bother?&lt;/p&gt;
 
-&lt;p&gt;Just like arrays store numbers, human mind store &amp;amp; process &lt;a href=&#34;https://en.wikipedia.org/wiki/Meme&#34;&gt;memes&lt;/a&gt;. So occasional writing to unprepared mind might look completely similar to off-by-one error. The difference is that there is no entity to check boundary condition and subjectively it is treated as learning something new or addicting to something unexpected. Also it is not treated as an &lt;em&gt;error&lt;/em&gt; at all, and instead of exception we get involved in discussions, rants or just writing blog posts. So as more memes continue hitting my mind I&amp;rsquo;d respond to some of them with a blog post that without much futher explanation could be called &lt;em&gt;off-by-mind&lt;/em&gt; posts and so is called the blog.&lt;/p&gt;
+&lt;p&gt;Just like arrays store numbers, human mind store &amp;amp; process &lt;a href=&#34;https://en.wikipedia.org/wiki/Meme&#34;&gt;memes&lt;/a&gt;. So occasional writing to unprepared mind might look completely similar to off-by-one error. The difference is that there is no entity to check boundary condition and subjectively it is treated as learning something new or addicting to something unexpected. Also it is not treated as an &lt;em&gt;error&lt;/em&gt; at all, and instead of exception we get involved in discussions, rants or just writing blog posts. So as more memes continue hitting my mind I&amp;rsquo;d respond to some of them with a blog post that without much further explanation could be called &lt;em&gt;off-by-mind&lt;/em&gt; posts and so is called the blog.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt; also the date seems to be rather good excuse for the start &lt;code&gt;16 - 08 - 04&lt;/code&gt;&lt;/p&gt;
 </description>
