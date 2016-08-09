@@ -8,6 +8,8 @@
 	       this.page.url = '{{with .GetParam "disqus_url" }}{{ . | html  }}{{ else }}{{ .Permalink }}{{end}}';
 	    };
 	    (function() {
+	    	if (window.location.hostname == "localhost")
+        		return;
 	        var d = document, s = d.createElement('script');
 	        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 	        s.setAttribute('data-timestamp', +new Date());
