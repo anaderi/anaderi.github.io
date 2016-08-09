@@ -1,16 +1,17 @@
 THEME = hugo-multi-bootswatch
 THEME = ghostwriter
 GIT_BLOG = ~/git/anaderi.github.io
-MSG ?= "update"
+msg ?= Site update on $(shell date +'%Y-%m-%d %H:%M %Z')
 SHELL = /bin/bash
 
 
 help:
 	@echo HELP:
-	@echo "\thugo new [page/XYZ] -- create new page"
-	@echo "\tmake server -- serve locally"
-	@echo "\tmake -e MSG='fix' commit"
-	@echo "\thugo undraft -- change from draft to real staff"
+	@echo -e "\thugo new [page/XYZ] -- create new page"
+	@echo -e "\tmake server -- serve locally"
+	@echo -e "\tmake -e msg='fix' publish"
+	@echo -e "\thugo undraft -- change from draft to real staff"
+#@echo $(msg)
 
 
 server:
@@ -28,8 +29,8 @@ _gen:
 
 commit:	_gen
 	git add -A
-	git commit -m "$(MSG)"
+	git commit -m "$(msg)"
 
-publish: _gen
+publish: commit
 	git push origin contents
 	git subtree push --prefix=public git@github.com:anaderi/anaderi.github.io.git master
