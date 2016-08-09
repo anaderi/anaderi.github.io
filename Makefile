@@ -1,14 +1,15 @@
-THEME=hugo-multi-bootswatch
-THEME=ghostwriter
-GIT_BLOG=~/git/anaderi.github.io
+THEME = hugo-multi-bootswatch
+THEME = ghostwriter
+GIT_BLOG = ~/git/anaderi.github.io
 MSG ?= "update"
+SHELL = /bin/bash
 
 
 help:
 	@echo HELP:
 	@echo "\thugo new [page/XYZ] -- create new page"
-	@echo "\tmake serve -- serve locally"
-	@echo "\tmake -e MSG='fix' publish -- publish"
+	@echo "\tmake server -- serve locally"
+	@echo "\tmake -e MSG='fix' commit"
 	@echo "\thugo undraft -- change from draft to real staff"
 
 
@@ -25,7 +26,10 @@ pull_public:
 _gen:
 	hugo --theme=$(THEME)
 
+commit:	_gen
+	git add -A
+	git commit -m "$(MSG)"
+
 publish: _gen
-	#git commit -am $(MSG)
 	git push origin contents
 	git subtree push --prefix=public git@github.com:anaderi/anaderi.github.io.git master
