@@ -4,7 +4,7 @@ title = "Off-by-mind blog"
 canonifyURLs = true
 # http://www.webpagefx.com/tools/emoji-cheat-sheet/
 EnableEmoji = true
-DisqusShortname = "anaderi"
+DisqusShortname = "anaderi-github-io"
 
 [taxonomies]
   tag = "tags"

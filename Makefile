@@ -34,3 +34,4 @@ commit:	_gen
 publish: commit
 	git push origin contents
 	git subtree push --prefix=public git@github.com:anaderi/anaderi.github.io.git master
+	git subtree push --prefix=themes/ghostwriter git@github.com:anaderi/ghostwriter.git master
