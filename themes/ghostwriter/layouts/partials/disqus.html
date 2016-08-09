@@ -1,20 +1,17 @@
 {{ if .Site.DisqusShortname }}
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
-
-	(function() {
-	    // Don't ever inject Disqus on localhost--it creates unwanted
-	    // discussions from 'localhost:1313' on your Disqus account...
-	    if (window.location.hostname == "localhost")
-	        return;
-
 	    var disqus_shortname = '{{ .Site.DisqusShortname }}';
 	    var disqus_config = function () {
 	       this.page.identifier = '{{with .GetParam "disqus_identifier" }}{{ . }}{{ else }}{{ .Permalink }}{{end}}';
 	       this.page.title = '{{with .GetParam "disqus_title" }}{{ . }}{{ else }}{{ .Title }}{{end}}';
 	       this.page.url = '{{with .GetParam "disqus_url" }}{{ . | html  }}{{ else }}{{ .Permalink }}{{end}}';
 	    };
+
 	    (function() {
+		    if (window.location.hostname == "localhost")
+		        return;
+
 	        var d = document, s = d.createElement('script');
 	        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 	        s.setAttribute('data-timestamp', +new Date());
