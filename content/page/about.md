@@ -14,6 +14,6 @@ This blog _could_ embrace various stuff from biologically engineered pet-food re
 - machine intelligence, data science, meta and fundamental science,
 - reproducibility, errors and coincidences
 
-mainly because I'm more sensitive to those. And the main motivation for posting here is getting a better grasp of the content of own mind (sometimes I wish there could be such things as 'contents' to the mind as it is for a regular book). In other words I make posts not to make a pleasant reading, but to make own thoughts a bit more tangible for myself :) If you find some of those posts interesting as well - I'd be very happy - just leave a comment below.
+mainly because I'm more sensitive to those. And the main motivation for posting here is getting a better grasp of the content of own mind (sometimes I wish there could be such things as 'contents' to the mind as it is for a regular book). In other words I make posts not to make a pleasant reading, but to make own thoughts a bit more tangible for myself 😄. If you find some of those posts interesting as well - I'd be very happy - just leave a comment below.
 
 Meanwhile if you'd like to learn a bit more about projects of my team, you're welcome browse it's [github repositories](https://github.com/yandexdataschool).
