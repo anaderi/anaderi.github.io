@@ -29,7 +29,7 @@ _gen:
 
 commit:	_gen
 	git add -A
-	git commit -m "$(msg)"
+	-git commit -m "$(msg)"
 
 publish: commit
 	git push origin contents
