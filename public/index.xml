@@ -6,8 +6,25 @@
     <description>Recent content on Off-by-mind blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Aug 2016 17:06:05 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Sep 2016 13:52:00 +0300</lastBuildDate>
     <atom:link href="https://anaderi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Поиск очень редких событий в LHCb</title>
+      <link>https://anaderi.github.io/2016/09/24/bs2mu/</link>
+      <pubDate>Sat, 24 Sep 2016 13:52:00 +0300</pubDate>
+      
+      <guid>https://anaderi.github.io/2016/09/24/bs2mu/</guid>
+      <description>&lt;p&gt;Одним из основных подходов к анализу данных в физике высоких энергий является численный анализ. Этот подход используется при исследовании редких процессов, таких как появление бозона Хиггса или распад B-мезона на два мюона (B → µµ). Этот распад интересен тем, что его частота в соответствии со стандартной моделью: а) очень низкая — около 10 в степени −9; б) значительно меньше частоты, предсказываемой некоторыми «суперсимметричными» моделями. Другими словами, наблюдение отклонений от предсказаний стандартной модели могло стать убедительным свидетельством существования частиц, которых никто ещё не видел!&lt;/p&gt;
+
+&lt;p&gt;Адаптировано под аудиторию, для которой слова &amp;ldquo;градиентный бустинг&amp;rdquo; гораздо понятней, чем &amp;ldquo;квантовая хромодинамика&amp;rdquo;.&lt;/p&gt;
+
+&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;101f3d6368c245e792acc071e4d22c72&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
+
+&lt;p&gt;Замечательне доклады Владимира Шевченко, Федора Ратникова и Тани Лихоманенко о работе с данными в физике высоких энергий можно найти на странице мероприятия
+&lt;a href=&#34;https://events.yandex.ru/events/ds/17-sept-2016/&#34;&gt;https://events.yandex.ru/events/ds/17-sept-2016/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>about author &amp; blog</title>

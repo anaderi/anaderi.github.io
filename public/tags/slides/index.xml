@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Off-by-mind blog</title>
-    <link>https://anaderi.github.io/post/</link>
-    <description>Recent content in Posts on Off-by-mind blog</description>
+    <title>Slides on Off-by-mind blog</title>
+    <link>https://anaderi.github.io/tags/slides/</link>
+    <description>Recent content in Slides on Off-by-mind blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Sep 2016 13:52:00 +0300</lastBuildDate>
-    <atom:link href="https://anaderi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anaderi.github.io/tags/slides/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Поиск очень редких событий в LHCb</title>
@@ -23,36 +23,6 @@
 
 &lt;p&gt;Замечательне доклады Владимира Шевченко, Федора Ратникова и Тани Лихоманенко о работе с данными в физике высоких энергий можно найти на странице мероприятия
 &lt;a href=&#34;https://events.yandex.ru/events/ds/17-sept-2016/&#34;&gt;https://events.yandex.ru/events/ds/17-sept-2016/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>off-by-mind?</title>
-      <link>https://anaderi.github.io/2016/08/04/welcome/</link>
-      <pubDate>Thu, 04 Aug 2016 17:05:38 +0300</pubDate>
-      
-      <guid>https://anaderi.github.io/2016/08/04/welcome/</guid>
-      <description>&lt;p&gt;&lt;del&gt;Dear diary, &amp;hellip;&lt;/del&gt; 😄&lt;/p&gt;
-
-&lt;p&gt;There is a &lt;a href=&#34;http://martinfowler.com/bliki/TwoHardThings.html&#34;&gt;popular saying&lt;/a&gt; that in Computer Science there are only 2 hard things: naming, cache invalidation &amp;hellip; and &lt;em&gt;off-by-one&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Those &lt;em&gt;off-by-one&lt;/em&gt; relate to an error of accessing array elements in logically incorrect order. You can have many errors of that kind even in a short piece of code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = [-2, -1, 0, -1, -2]
-for i in range(1, 5): # error_1 - omitting 1st element
-    if a[i] &amp;lt; 0: a.remove(a[i]) # error_2, altering list inside iterator
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;running it would result in exception:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;IndexError: list index out of range
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Actually the code above is quite nasty, but why do I bother?&lt;/p&gt;
-
-&lt;p&gt;Just like arrays store numbers, human mind store &amp;amp; process &lt;a href=&#34;https://en.wikipedia.org/wiki/Meme&#34;&gt;memes&lt;/a&gt;. So occasional writing to unprepared mind might look completely similar to off-by-one error. The difference is that there is no entity to check boundary condition and subjectively it is treated as learning something new or addicting to something unexpected. Also it is not treated as an &lt;em&gt;error&lt;/em&gt; at all, and instead of exception we get involved in discussions, rants or just writing blog posts. So as more memes continue hitting my mind I&amp;rsquo;d respond to some of them with a blog post that without much further explanation could be called &lt;em&gt;off-by-mind&lt;/em&gt; posts and so is called the blog.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt; also the date seems to be rather good excuse for the start &lt;code&gt;16 - 08 - 04&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

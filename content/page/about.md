@@ -2,7 +2,7 @@
 date = "2016-08-08T17:06:05+03:00"
 draft = false
 title = "about author & blog"
-image = "/images/logo.png"
+image = "/images/2015-bologna.png"
 
 +++
 

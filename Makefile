@@ -7,7 +7,7 @@ SHELL = /bin/bash
 
 help:
 	@echo HELP:
-	@echo -e "\thugo new [page/XYZ] -- create new page"
+	@echo -e "\thugo new [page/XYZ.md] -- create new page"
 	@echo -e "\tmake server -- serve locally"
 	@echo -e "\tmake -e msg='fix' publish"
 	@echo -e "\thugo undraft -- change from draft to real staff"
